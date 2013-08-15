@@ -2,8 +2,8 @@ require 'formula'
 
 class Psqlodbc < Formula
   homepage 'http://psqlodbc.projects.pgfoundry.org/'
-  url 'http://ftp.postgresql.org/pub/odbc/versions/src/psqlodbc-09.01.0200.tar.gz'
-  sha1 '9ecee7c370ec6a0d87791490dea01723436a4e2b'
+  url 'http://ftp.postgresql.org/pub/odbc/versions/src/psqlodbc-08.04.0200.tar.gz'
+  sha1 '2d7aab39a77fbd65b25218f07b02d913cec80eb6'
   
   depends_on "postgresql"
   depends_on "unixodbc" => :optional
